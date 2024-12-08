@@ -1,0 +1,14 @@
+Dataset Statistics:
+Total images in zip files: 56880
+Images in PV train: 38994
+Images in PV test seen: 10279
+Images in PV test unseen: 216
+Images in PD test unseen: 71
+Unaccounted images in plantvillage.zip: 4816
+Unaccounted images in plantdoc.zip: 2504
+
+Missing Files:
+Files in PV train not in zip files: 0
+Files in PV test seen not in zip files: 0
+Files in PV test unseen not in zip files: 0
+Files in PD test unseen not in zip files: 0
