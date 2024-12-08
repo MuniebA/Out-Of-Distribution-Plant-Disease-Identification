@@ -1,0 +1,74 @@
+Evaluation Results using data from the selected:
+
+TEST_SEEN:
+crop_acc: 0.9907
+disease_acc: 0.9510
+
+TEST_UNSEEN:
+crop_acc: 0.9800
+disease_acc: 0.6600
+
+Harmonic Means (Seen vs Unseen):
+crop: 0.9853
+disease: 0.7792
+
+
+
+Evaluation Results using the full data set:
+
+Results for PV test seen:
+
+Crop Classification Results
+========================================
+Top-1 Accuracy: 99.21%
+Top-5 Accuracy: 99.98%
+Average Accuracy: 99.27%
+
+Disease Classification Results
+========================================
+Top-1 Accuracy: 92.10%
+Top-5 Accuracy: 99.63%
+Average Accuracy: 89.69%
+
+
+Results for PV test unseen:
+
+Crop Classification Results
+========================================
+Top-1 Accuracy: 96.30%
+Top-5 Accuracy: 100.00%
+Average Accuracy: 96.30%
+
+Disease Classification Results
+========================================
+Top-1 Accuracy: 71.30%
+Top-5 Accuracy: 96.30%
+Average Accuracy: 71.30%
+
+
+Results for PD test unseen:
+
+Crop Classification Results
+========================================
+Top-1 Accuracy: 19.72%
+Top-5 Accuracy: 69.01%
+Average Accuracy: 19.72%
+
+Disease Classification Results
+========================================
+Top-1 Accuracy: 32.39%
+Top-5 Accuracy: 90.14%
+Average Accuracy: 32.39%
+
+
+Harmonic Means for Crop:
+----------------------------------------
+PV Seen vs PV Unseen: 97.73%
+PV Seen vs PD Unseen: 32.90%
+PV Seen vs (PV Unseen + PD Unseen Average): 73.21%
+
+Harmonic Means for Disease:
+----------------------------------------
+PV Seen vs PV Unseen: 80.37%
+PV Seen vs PD Unseen: 47.93%
+PV Seen vs (PV Unseen + PD Unseen Average): 66.34%
